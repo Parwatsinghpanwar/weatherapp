@@ -132,7 +132,15 @@ h1 {
   max-width: 70px;
   margin: 5px 0 -12px 0;
 }
-
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(84, 111, 233);
+    color: rgb(20, 20, 20);
+    text-align: center;
+}
 @media (max-width: 1400px) {
   .weather-data .current-weather {
     padding: 20px;
